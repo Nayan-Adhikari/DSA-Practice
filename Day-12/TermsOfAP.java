@@ -1,6 +1,6 @@
 import java.util.* ;
 import java.io.*; 
-public class Solution {
+class Solution {
 	public static int[] termsOfAP(int x){
 		// Write your code here.
 		int []arr = new int[x];

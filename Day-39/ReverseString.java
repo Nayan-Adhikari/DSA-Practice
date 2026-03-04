@@ -1,0 +1,18 @@
+class Solution {
+    void swapString(char[] s, int left, int right){
+        char temp = s[left];
+        s[left] = s[right];
+        s[right] = temp;
+    }
+
+    public void reverseString(char[] s) {
+        int left = 0;
+        int right = s.length - 1;
+
+        while(left<=right){
+            swapString(s,left,right);
+            left++;
+            right--;
+        }
+    }
+}
